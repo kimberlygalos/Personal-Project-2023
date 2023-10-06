@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: burlywood;
+  width: 300px;
+  height: 60vh;
+  margin: 2em auto;
+  padding-top: 2em;
+  box-shadow: -5px -5px 1px rgb(36, 28, 28);
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(244, 204, 151); /* Color of the thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(67, 54, 36); /* Color of the thumb on hover */
+}
+
+li {
+  font-size: 1.2rem;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.todo-app {
+  text-align: center;
+}
+
+#list-container {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+#list-checkbox {
+  width: 15px; /* Adjust the width as needed */
+  height: 15px; /* Adjust the height as needed */
+  margin-bottom: -7;
+}
+
+#input-box {
+  width: 12rem;
+  text-align: center;
+}
+
+#add-btn {
+  width: 5em;
+  border: none;
+  cursor: pointer;
+}
+
+#input-box,
+#add-btn {
+  padding: 0.2em;
+  border-radius: 5px;
+}

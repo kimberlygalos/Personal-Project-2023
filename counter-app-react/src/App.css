@@ -1,0 +1,9 @@
+.heading,
+.button {
+  text-align: center;
+  color: green;
+}
+
+.danger {
+  color: red;
+}
